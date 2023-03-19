@@ -12,12 +12,12 @@ This repository contains the code for controlling a servo motor using an STM32 m
 ## Setup
 **1.** Connect the servo motor to the STM32 microcontroller as follows:
 
-- Servo signal pin to STM32 PWM output pin (e.g., PA0)
+- Servo signal pin to STM32 PWM output pin (e.g., PA1)
 - Servo power pin to 5V pin on STM32 board
 - Servo ground pin to GND pin on STM32 board
 
 **2.** Connect the potentiometer to the STM32 microcontroller as follows:
-- Potentiometer signal pin to ADC input pin on STM32 (e.g., PA1)
+- Potentiometer signal pin to ADC input pin on STM32 (e.g., PA0)
 - Potentiometer power pin to 3.3V pin on STM32 board
 - Potentiometer ground pin to GND pin on STM32 board
 
